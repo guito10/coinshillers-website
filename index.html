@@ -1,0 +1,77 @@
+coinshillers-website/
+├── index.html
+├── style.css
+├── script.js
+├── assets/
+│   └── logo.png
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Coin Shillers</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <img src="assets/logo.png" class="logo animated" alt="Coin Shillers Logo">
+    <h1>The Army of Shillers Never Sleeps</h1>
+    <a href="https://www.geckoterminal.com/pt/pepe-unchained/pools/0xb29d59dd34b826fa4632113d27d66dbdbdc555a3" target="_blank" class="btn">BUY TOKEN</a>
+    <div class="links">
+      <a href="https://x.com/SHILLGUYS4PEPU" target="_blank">Twitter</a>
+      <a href="https://t.me/+yAbf3ABMaCs4YTAx" target="_blank">Telegram</a>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+body {
+  background: black;
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 40px;
+}
+
+.logo {
+  width: 200px;
+  margin: 20px auto;
+}
+
+.animated {
+  animation: pulse 2s infinite;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-top: 20px;
+}
+
+.btn {
+  display: inline-block;
+  margin: 20px;
+  padding: 15px 30px;
+  background: green;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: limegreen;
+}
+
+.links a {
+  display: inline-block;
+  margin: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
+// Você pode colocar animações extras ou efeitos JS aqui se quiser.
